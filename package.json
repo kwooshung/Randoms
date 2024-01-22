@@ -48,10 +48,14 @@
     "test:ci": "jest --coverage --ci",
     "eslint": "eslint . --fix --cache --quiet --report-unused-disable-directives --max-warnings 0 --ext .js,.cjs,.jsx,.ts,.cts,.tsx"
   },
+  "dependencies": {
+    "decimal.js": "^10.4.3"
+  },
   "peerDependencies": {
     "node": ">=14.0.0"
   },
   "devDependencies": {
+    "@kwooshung/cvlar": "^1.3.6",
     "@swc/core": "^1.3.105",
     "@swc/jest": "^0.2.31",
     "@types/jest": "^29.5.11",
@@ -74,8 +78,5 @@
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   },
-  "license": "MIT",
-  "dependencies": {
-    "decimal.js": "^10.4.3"
-  }
+  "license": "MIT"
 }
