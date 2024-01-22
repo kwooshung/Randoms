@@ -88,4 +88,5 @@ const string = (length: number = 10, typeString: string = '*'): string => {
   return Array.from({ length }, () => characters.charAt(Math.floor(Math.random() * characters.length))).join('');
 };
 
+export { getCharacterSet };
 export default string;
