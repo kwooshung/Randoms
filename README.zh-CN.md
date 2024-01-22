@@ -23,12 +23,12 @@
 </p>
 </div>
 
-# 为什么开发它？
+# 📝 为什么开发它？
 
 - 社区中有很多优秀的随机相关的项目，每个项目都有自己的风格和使用方法，不够统一，而且在项目中使用不同的随机，需要引入多个库；他们并不太适合我；
 - 很多项目也 “年久失修” 了，不再维护，从另外一个方面也说明了社区中这些优秀的项目足够健壮！
 
-# 为什么使用它？
+# 📝 为什么使用它？
 
 - 全是函数组成，使用简单，学习成本极低；
 - **ES6** 的现代特性实现；
@@ -40,7 +40,7 @@
 - 当然本项目才提供了 `commonjs` 规范的 `cjs` 版本；
 - 测试覆盖率 **100%**；
 
-# 安装
+# 📝 安装
 
 ## npm
 
@@ -60,15 +60,15 @@ yarn add @kwooshung/randoms
 pnpm add @kwooshung/randoms
 ```
 
-# 函数列表
+# 📝 函数列表
 
-## 随机数
+## 🚩 随机数
 
-### number [code](./src/number/index.ts)
+### ✨ number [code](./src/number/index.ts)
 
 随机数，支持整数和浮点数
 
-#### 参数
+#### 💬 参数
 
 ```ts
 /**
@@ -81,7 +81,7 @@ pnpm add @kwooshung/randoms
 const number = (maximum: number, minimum: number = 0): number;
 ```
 
-#### 示例
+#### 📄 示例
 
 ```ts
 import { number } from '@kwooshung/randoms';
@@ -97,11 +97,11 @@ number(0.5, 5.06); // 0.5 ~ 5.06
 number(100, 200); // 100 ~ 200，可自动识别最大值和最小值
 ```
 
-### numberStep [code](./src/number/step/index.ts)
+### ✨ numberStep [code](./src/number/step/index.ts)
 
 随机数，支持整数和浮点数，支持步长
 
-#### 参数
+#### 💬 参数
 
 ```ts
 /**
@@ -115,7 +115,7 @@ number(100, 200); // 100 ~ 200，可自动识别最大值和最小值
 const step = (maximum: number, minimum: number = 0, step: number = 0): number;
 ```
 
-#### 示例
+#### 📄 示例
 
 ```ts
 import { numberStep } from '@kwooshung/randoms';
@@ -133,11 +133,11 @@ numberStep(1, 5, 0.3); // 1, 1.3, 1.6, 1.9, 2.2, 2.5, ... 4.9 中任意一个
 numberStep(100, 200, 10); // 100, 110, 120, 130, 140, 150, ... 200 中任意一个
 ```
 
-### numberNonConsecutiveFn [code](./src/number/nonConsecutiveFn/index.ts)
+### ✨ numberNonConsecutiveFn [code](./src/number/nonConsecutiveFn/index.ts)
 
 随机数函数，支持整数、浮点数、步长，保证连续两次调用不重复
 
-#### 参数
+#### 💬 参数
 
 ```ts
 /**
@@ -151,7 +151,7 @@ numberStep(100, 200, 10); // 100, 110, 120, 130, 140, 150, ... 200 中任意一�
 const numberNonConsecutiveFn = (maximum: number, minimum: number = 0, step: number = 0): () => number;
 ```
 
-#### 示例
+#### 📄 示例
 
 ```ts
 import { numberNonConsecutiveFn } from '@kwooshung/randoms';
@@ -162,11 +162,11 @@ fn(); // 第一次调用，假设是 8.1
 fn(); // 第二次调用，为 5 ~ 10.5 中除了 8.1 之外的任意一个数
 ```
 
-### numbers [code](./src/number/array/index.ts)
+### ✨ numbers [code](./src/number/array/index.ts)
 
 随机数字数组，支持整数和浮点数
 
-#### 参数
+#### 💬 参数
 
 ```ts
 /**
@@ -181,7 +181,7 @@ fn(); // 第二次调用，为 5 ~ 10.5 中除了 8.1 之外的任意一个数
 const array = (maximum: number, minimum: number = 0, count: number = 10, step: number = 0): number[];
 ```
 
-#### 示例
+#### 📄 示例
 
 ```ts
 import { numbers } from '@kwooshung/randoms';
@@ -197,11 +197,11 @@ numbers(10, 5.21, 3, 0.1); // [ 5.88, 9.45, 7.55 ]
 numbers(5.21, 20, 5, 0.5); // [ 13.07, 11.4, 11.94, 15.87, 19.35 ]
 ```
 
-### numbersUnique [code](./src/number/unique/index.ts)
+### ✨ numbersUnique [code](./src/number/unique/index.ts)
 
 随机不重复数字数组，支持整数和浮点数
 
-#### 参数
+#### 💬 参数
 
 ```ts
 /**
@@ -216,7 +216,7 @@ numbers(5.21, 20, 5, 0.5); // [ 13.07, 11.4, 11.94, 15.87, 19.35 ]
 const unique = (maximum: number, minimum: number = 0, count: number = 10, step: number = 0): number[];
 ```
 
-#### 示例
+#### 📄 示例
 
 ```ts
 import { numbersUnique } from '@kwooshung/randoms';
@@ -234,13 +234,13 @@ numbersUnique(10, 5.21, 3, 0.1); // [ 7.91, 6.91, 8.11 ]
 numbersUnique(5.21, 20, 5, 0.5); // [ 13.21, 14.21, 19.21, 11.71, 6.21 ]
 ```
 
-## 随机字符串
+## 🚩 随机字符串
 
-### string [code](./src/string/index.ts)
+### ✨ string [code](./src/string/index.ts)
 
 生成随机字符串
 
-#### 参数
+#### 💬 参数
 
 ```ts
 /**
@@ -252,7 +252,7 @@ numbersUnique(5.21, 20, 5, 0.5); // [ 13.21, 14.21, 19.21, 11.71, 6.21 ]
 const string = (length: number = 10, typeString: string = '*'): string;
 ```
 
-#### 示例
+#### 📄 示例
 
 ```ts
 import { string } from '@kwooshung/randoms';
@@ -274,11 +274,11 @@ string(5, 'aA0!'); // 'ODL$A'
 string(3, 'abcdef'); // 'ffd' 当 typeString 中的字符出现不存在的预设字符时（*aA0!），将完全按照 typeString 中的字符生成随机字符串
 ```
 
-### stringNonConsecutiveFn [code](./src/string/nonConsecutiveFn/index.ts)
+### ✨ stringNonConsecutiveFn [code](./src/string/nonConsecutiveFn/index.ts)
 
 随机字符串函数，保证连续两次调用不重复
 
-#### 参数
+#### 💬 参数
 
 ```ts
 /**
@@ -290,7 +290,7 @@ string(3, 'abcdef'); // 'ffd' 当 typeString 中的字符出现不存在的预�
 const nonConsecutiveFn = (length: number = 10, typeString: string = '*'): () => string;
 ```
 
-#### 示例
+#### 📄 示例
 
 ```ts
 import { stringNonConsecutiveFn } from '@kwooshung/randoms';
@@ -301,11 +301,11 @@ fn(); // 第一次调用，假设是 'ODL$A'
 fn(); // 第二次调用，绝对不会是 'ODL$A'，而是另外一个随机字符串
 ```
 
-### strings [code](./src/string/array/index.ts)
+### ✨ strings [code](./src/string/array/index.ts)
 
 随机字符串数组
 
-#### 参数
+#### 💬 参数
 
 ```ts
 /**
@@ -318,7 +318,7 @@ fn(); // 第二次调用，绝对不会是 'ODL$A'，而是另外一个随机字
 const array = (length: number = 10, typeString: string = '*', count: number = 10): string[];
 ```
 
-#### 示例
+#### 📄 示例
 
 ```ts
 import { strings } from '@kwooshung/randoms';
@@ -342,11 +342,11 @@ strings(5, 'aA0!', 5); // [ "$6['n", '|9)%y', 'DHshL', '$*Aq4', '!-y0;' ]
 strings(5, 'abcdef', 5); // [ 'cebcf', 'fcdcc', 'fdfad', 'dbdca', 'eabaf' ]
 ```
 
-### stringsUnique [code](./src/string/unique/index.ts)
+### ✨ stringsUnique [code](./src/string/unique/index.ts)
 
 随机不重复字符串数组
 
-#### 参数
+#### 💬 参数
 
 ```ts
 /**
@@ -359,7 +359,7 @@ strings(5, 'abcdef', 5); // [ 'cebcf', 'fcdcc', 'fdfad', 'dbdca', 'eabaf' ]
 const unique = (length: number, typeString: string = '*', count: number = 10): string[];
 ```
 
-#### 示例
+#### 📄 示例
 
 ```ts
 import { stringsUnique } from '@kwooshung/randoms';

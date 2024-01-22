@@ -23,12 +23,12 @@
 </p>
 </div>
 
-# Why Develop It?
+# 📝 Why Develop It?
 
 - There are many excellent random-related projects in the community, each with its own style and usage method, which are not unified. Also, using different random functions in projects often requires including multiple libraries; they are not quite suitable for me.
 - Many projects are also "outdated," no longer maintained, which also shows from another perspective that these excellent community projects are robust enough!
 
-# Why Use It?
+# 📝 Why Use It?
 
 - Entirely composed of functions, simple to use, and very low learning cost.
 - Implemented with modern **ES6** features.
@@ -40,7 +40,7 @@
 - Also provides a `commonjs` (`cjs`) version following the `commonjs` specification.
 - Test coverage is **100%**.
 
-# Install
+# 📝 Install
 
 ## npm
 
@@ -60,15 +60,15 @@ yarn add @kwooshung/randoms
 pnpm add @kwooshung/randoms
 ```
 
-# Functions
+# 📝 Functions
 
-## Random Numbers
+## 🚩 Random Numbers
 
-### number [code](./src/number/index.ts)
+### ✨ number [code](./src/number/index.ts)
 
 Random numbers, supports both integers and floating-point numbers
 
-#### Parameters
+#### 💬 Parameters
 
 ```ts
 /**
@@ -81,7 +81,7 @@ Random numbers, supports both integers and floating-point numbers
 const number = (maximum: number, minimum: number = 0): number;
 ```
 
-#### Examples
+#### 📄 Examples
 
 ```ts
 import { number } from '@kwooshung/randoms';
@@ -97,11 +97,11 @@ number(0.5, 5.06); // 0.5 ~ 5.06
 number(100, 200); // 100 ~ 200, auto detects max and min values
 ```
 
-### numberStep [code](./src/number/step/index.ts)
+### ✨ numberStep [code](./src/number/step/index.ts)
 
 Random numbers with step, supports integers and floating-point numbers
 
-#### Parameters
+#### 💬 Parameters
 
 ```ts
 /**
@@ -115,7 +115,7 @@ Random numbers with step, supports integers and floating-point numbers
 const step = (maximum: number, minimum: number = 0, step: number = 0): number;
 ```
 
-#### Examples
+#### 📄 Examples
 
 ```ts
 import { numberStep } from '@kwooshung/randoms';
@@ -133,11 +133,11 @@ numberStep(1, 5, 0.3); // One of 1, 1.3, 1.6, 1.9, 2.2, 2.5, ... 4.9
 numberStep(100, 200, 10); // One of 100, 110, 120, 130, 140, 150, ... 200
 ```
 
-### numberNonConsecutiveFn [code](./src/number/nonConsecutiveFn/index.ts)
+### ✨ numberNonConsecutiveFn [code](./src/number/nonConsecutiveFn/index.ts)
 
 Random number function, supports integers, floating-point numbers, step size, and ensures consecutive calls are not repeated
 
-#### Parameters
+#### 💬 Parameters
 
 ```ts
 /**
@@ -151,7 +151,7 @@ Random number function, supports integers, floating-point numbers, step size, an
 const numberNonConsecutiveFn = (maximum: number, minimum: number = 0, step: number = 0): () => number;
 ```
 
-#### Examples
+#### 📄 Examples
 
 ```ts
 import { numberNonConsecutiveFn } from '@kwooshung/randoms';
@@ -162,11 +162,11 @@ fn(); // First call, suppose it's 8.1
 fn(); // Second call, any number from 5 ~ 10.5 except 8.1
 ```
 
-### numbers [code](./src/number/array/index.ts)
+### ✨ numbers [code](./src/number/array/index.ts)
 
 Random number array, supports both integers and floating-point numbers
 
-#### Parameters
+#### 💬 Parameters
 
 ```ts
 /**
@@ -181,7 +181,7 @@ Random number array, supports both integers and floating-point numbers
 const array = (maximum: number, minimum: number = 0, count: number = 10, step: number = 0): number[];
 ```
 
-#### Examples
+#### 📄 Examples
 
 ```ts
 import { numbers } from '@kwooshung/randoms';
@@ -197,11 +197,11 @@ numbers(10, 5.21, 3, 0.1); // [ 5.88, 9.45, 7.55 ]
 numbers(5.21, 20, 5, 0.5); // [ 13.07, 11.4, 11.94, 15.87, 19.35 ]
 ```
 
-### numbersUnique [code](./src/number/unique/index.ts)
+### ✨ numbersUnique [code](./src/number/unique/index.ts)
 
 Random non-repetitive number array, supports both integers and floating-point numbers
 
-#### Parameters
+#### 💬 Parameters
 
 ```ts
 /**
@@ -216,7 +216,7 @@ Random non-repetitive number array, supports both integers and floating-point nu
 const unique = (maximum: number, minimum: number = 0, count: number = 10, step: number = 0): number[];
 ```
 
-#### Examples
+#### 📄 Examples
 
 ```ts
 import { numbersUnique } from '@kwooshung/randoms';
@@ -234,13 +234,13 @@ numbersUnique(10, 5.21, 3, 0.1); // [ 7.91, 6.91, 8.11 ]
 numbersUnique(5.21, 20, 5, 0.5); // [ 13.21, 14.21, 19.21, 11.71, 6.21 ]
 ```
 
-## Random Strings
+## 🚩 Random Strings
 
-### string [code](./src/string/index.ts)
+### ✨ string [code](./src/string/index.ts)
 
 Generate random strings
 
-#### Parameters
+#### 💬 Parameters
 
 ```ts
 /**
@@ -252,7 +252,7 @@ Generate random strings
 const string = (length: number = 10, typeString: string = '*'): string;
 ```
 
-#### Examples
+#### 📄 Examples
 
 ```ts
 import { string } from '@kwooshung/randoms';
@@ -274,11 +274,11 @@ string(5, 'aA0!'); // 'ODL$A'
 string(3, 'abcdef'); // 'ffd' When typeString includes characters not in the presets (*aA0!), it generates a random string completely based on characters in typeString
 ```
 
-### stringNonConsecutiveFn [code](./src/string/nonConsecutiveFn/index.ts)
+### ✨ stringNonConsecutiveFn [code](./src/string/nonConsecutiveFn/index.ts)
 
 随机字符串函数，保证连续两次调用不重复
 
-#### Parameters
+#### 💬 Parameters
 
 ```ts
 /**
@@ -290,7 +290,7 @@ string(3, 'abcdef'); // 'ffd' When typeString includes characters not in the pre
 const nonConsecutiveFn = (length: number = 10, typeString: string = '*'): () => string;
 ```
 
-#### Examples
+#### 📄 Examples
 
 ```ts
 import { stringNonConsecutiveFn } from '@kwooshung/randoms';
@@ -301,11 +301,11 @@ fn(); // First call, suppose it's 'ODL$A'
 fn(); // Second call, definitely not 'ODL$A', but another random string
 ```
 
-### strings [code](./src/string/array/index.ts)
+### ✨ strings [code](./src/string/array/index.ts)
 
 Array of random strings
 
-#### Parameters
+#### 💬 Parameters
 
 ```ts
 /**
@@ -318,7 +318,7 @@ Array of random strings
 const array = (length: number = 10, typeString: string = '*', count: number = 10): string[];
 ```
 
-#### Examples
+#### 📄 Examples
 
 ```ts
 import { strings } from '@kwooshung/randoms';
@@ -344,9 +344,9 @@ strings(5, 'abcdef', 5); // [ 'cebcf', 'fcdcc', 'fdfad', 'dbdca', 'eabaf' ]
 
 ### stringsUnique [code](./src/string/unique/index.ts)
 
-随机不重复字符串数组
+Non-repetitive array of random strings
 
-#### Parameters
+#### ✨ Parameters
 
 ```ts
 /**
@@ -359,7 +359,7 @@ strings(5, 'abcdef', 5); // [ 'cebcf', 'fcdcc', 'fdfad', 'dbdca', 'eabaf' ]
 const unique = (length: number, typeString: string = '*', count: number = 10): string[];
 ```
 
-#### Examples
+#### 📄 Examples
 
 ```ts
 import { stringsUnique } from '@kwooshung/randoms';
