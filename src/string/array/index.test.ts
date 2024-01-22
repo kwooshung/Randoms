@@ -45,7 +45,7 @@ describe('@/string/array', () => {
   it('使用特殊字符生成随机字符串数组', () => {
     const result = array(10, 10, '!');
     result.forEach((str) => {
-      expect(str).toMatch(/^[~!@#$%^&*()_+\-={}[\]|;:\`'",.<>?]+$/);
+      expect(str).toMatch(/^[~!@#$%^&*()_+\-={}[\]|;:`'",.<>?]+$/);
     });
   });
 
