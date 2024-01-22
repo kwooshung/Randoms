@@ -76,7 +76,7 @@ const getCharacterSet = (typeString: string): string => {
 /**
  * 生成随机字符串 (Generate random string)
  * @param {number} [length = 10] 随机字符串的长度 (Length of random string)
- * @param {string} [typeString = '*'] 表示字符类型的字符串，默认为所有类型；*=所有 a=小写字母 A=大写字母  0=数字 !=特殊字符(String representing character type, default is all types; *=all a=lower case A=upper case 0=numbers !=special)
+ * @param {string} [typeString = '*'] 表示字符类型的字符串，默认为所有类型；*=所有 a=小写字母 A=大写字母  0=数字 !=特殊字符 `~!@#$%^&*()_+-={}[]|;:\`'",.<>?` (String representing character type, default is all types; *=all a=lower case A=upper case 0=numbers !=special`~!@#$%^&*()_+-={}[]|;:\`'",.<>?`)
  * @returns {string} 生成的随机字符串 (Generated random string)
  */
 const string = (length: number = 10, typeString: string = '*'): string => {
