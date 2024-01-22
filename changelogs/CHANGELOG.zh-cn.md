@@ -1,3 +1,7 @@
+## 🎉 1.0.1 `2024-01-23`
+### 🆕 Add
+- 安装 @kwooshung/cvlar，已添加 ([#d03519a](https://github.com/kwooshung/files/commit/d03519a9b0ddd3df739b029e60d8aaf97fd71088))
+
 ## 🎉 1.0.0 `2024-01-23`
 ### 🐛 Fix
 - 增加说明文档图标以促进阅读理解 ([#270c2dd](https://github.com/kwooshung/files/commit/270c2ddd9ed91a7ea7d2265020cc9dcb21f77b12))
@@ -12,4 +16,3 @@
 - 添加.gitAttributes，强制设置为LF ([#c45a5ee](https://github.com/kwooshung/files/commit/c45a5ee2722626b288c3088492f23fd9ef886452))
 ### 🍻 Initial
 - 创建许可证 ([#795d4f2](https://github.com/kwooshung/files/commit/795d4f2ad6c17e7bcda8077242dc71464bfaee74))
-
