@@ -1,3 +1,7 @@
+## 🎉 1.0.3 `2024-01-23`
+### 🐛 Fix
+- 동기 주소가 잘못되었습니다 ([#e666861](https://github.com/kwooshung/files/commit/e6668611d81dc3799d4652ea6fc3bfd68cc017ef))
+
 ## 🎉 1.0.2 `2024-01-23`
 ### 🐛 Fix
 - 테스트 적용 범위, 기본값의 적용 범위 및 지점 악화 ([#0dd475b](https://github.com/kwooshung/files/commit/0dd475b0aa370cc584563fe7f35e2460e08a0e7b))
