@@ -3,7 +3,7 @@ import unique from '.';
 describe('@/string/unique', () => {
   // 测试默认参数
   it('默认参数生成10个长度为10的不重复随机字符串数组', () => {
-    const result = unique(10);
+    const result = unique();
     expect(new Set(result).size).toBe(10);
     result.forEach((str) => {
       expect(str).toHaveLength(10);
