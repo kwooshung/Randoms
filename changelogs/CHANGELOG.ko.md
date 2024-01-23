@@ -1,3 +1,7 @@
+## 🎉 1.0.2 `2024-01-23`
+### 🐛 Fix
+- 테스트 적용 범위, 기본값의 적용 범위 및 지점 악화 ([#0dd475b](https://github.com/kwooshung/files/commit/0dd475b0aa370cc584563fe7f35e2460e08a0e7b))
+
 ## 🎉 1.0.1 `2024-01-23`
 ### 🆕 Add
 - @kwooshung/cvlar를 설치하면 추가되었습니다. ([#d03519a](https://github.com/kwooshung/files/commit/d03519a9b0ddd3df739b029e60d8aaf97fd71088))
