@@ -1,3 +1,7 @@
+## 🎉 1.0.2 `2024-01-23`
+### 🐛 Fix
+- 测试覆盖率，默认值的覆盖范围和分支更糟 ([#0dd475b](https://github.com/kwooshung/files/commit/0dd475b0aa370cc584563fe7f35e2460e08a0e7b))
+
 ## 🎉 1.0.1 `2024-01-23`
 ### 🆕 Add
 - 安装 @kwooshung/cvlar，已添加 ([#d03519a](https://github.com/kwooshung/files/commit/d03519a9b0ddd3df739b029e60d8aaf97fd71088))
