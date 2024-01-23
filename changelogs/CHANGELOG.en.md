@@ -1,3 +1,7 @@
+## 🎉 1.0.1 `2024-01-23`
+### 🆕 Add
+- Install @kwooshung/cvlar, it has been added ([#d03519a](https://github.com/kwooshung/files/commit/d03519a9b0ddd3df739b029e60d8aaf97fd71088))
+
 ## 🎉 1.0.0 `2024-01-23`
 ### 🐛 Fix
 - Increase the description document icon to facilitate reading understanding ([#270c2dd](https://github.com/kwooshung/files/commit/270c2ddd9ed91a7ea7d2265020cc9dcb21f77b12))
@@ -12,4 +16,3 @@
 - Add .gitattributes, forced settings to LF ([#c45a5ee](https://github.com/kwooshung/files/commit/c45a5ee2722626b288c3088492f23fd9ef886452))
 ### 🍻 Initial
 - Create LICENSE.md ([#795d4f2](https://github.com/kwooshung/files/commit/795d4f2ad6c17e7bcda8077242dc71464bfaee74))
-
