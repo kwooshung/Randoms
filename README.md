@@ -276,7 +276,7 @@ string(3, 'abcdef'); // 'ffd' When typeString includes characters not in the pre
 
 ### ✨ stringNonConsecutiveFn [code](./src/string/nonConsecutiveFn/index.ts)
 
-随机字符串函数，保证连续两次调用不重复
+random string function, ensures consecutive calls are not repeated
 
 #### 💬 Parameters
 
