@@ -1,3 +1,9 @@
+## 🎉 1.0.4 `2024-01-25`
+### ⚡ Performance
+- 更新依賴 ([#9c5a36c](https://github.com/kwooshung/files/commit/9c5a36c03c5c3f434a41ff34f439d522a6b58422))
+### 🐛 Fix
+- 修復未翻譯的前所未有的單詞和英文文檔的內容 ([#58fb9af](https://github.com/kwooshung/files/commit/58fb9af2da4dab907abc56f2107bb95344fda8d8))
+
 ## 🎉 1.0.3 `2024-01-23`
 ### 🐛 Fix
 - 同步地址是錯誤的 ([#e666861](https://github.com/kwooshung/files/commit/e6668611d81dc3799d4652ea6fc3bfd68cc017ef))
