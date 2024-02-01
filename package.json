@@ -17,13 +17,13 @@
     "@kwooshung/randoms"
   ],
   "author": "kwooshung",
-  "homepage": "https://github.com/kwooshung/randoms",
+  "homepage": "https://github.com/kwooshung/Randoms",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kwooshung/randoms.git"
+    "url": "https://github.com/kwooshung/Randoms.git"
   },
   "bugs": {
-    "url": "https://github.com/kwooshung/randoms/issues"
+    "url": "https://github.com/kwooshung/Randoms/issues"
   },
   "type": "module",
   "main": "dist/randoms.cjs",
