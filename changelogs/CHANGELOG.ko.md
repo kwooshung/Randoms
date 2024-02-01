@@ -1,3 +1,7 @@
+## 🎉 1.0.7 `2024-02-02`
+### 🐛 Fix
+- 일부 구성을 수정하십시오 ([#a254344](https://github.com/kwooshung/files/commit/a25434499ccae08d23cc55e53790cb4d0f74421b))
+
 ## 🎉 1.0.6 `2024-02-01`
 ### 🐛 Fix
 - 패키지의 창고 주소를 변경하십시오 ([#f5452ec](https://github.com/kwooshung/files/commit/f5452ec067a9dbea64170a84cabdd6230be9d6f5))
