@@ -12,7 +12,7 @@
 [![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/randoms?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/randoms)
 [![Github CI/CD](https://github.com/kwooshung/Randoms/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/Randoms/actions/)
 [![codecov](https://codecov.io/gh/kwooshung/Randoms/graph/badge.svg?token=VVZJE7H0KD)](https://codecov.io/gh/kwooshung/Randoms)
-[![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/Randoms/maintainability/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b797031c8c1570b354a3/maintainability)](https://codeclimate.com/github/kwooshung/Randoms/maintainability)
 [![GitHub License](https://img.shields.io/github/license/kwooshung/Randoms?labelColor=272e3b&color=165dff)](LICENSE)
 [![Gitee Repo](https://img.shields.io/badge/gitee-randoms-165dff?logo=gitee)](https://gitee.com/kwooshung/Randoms/)
 ![Github Stars](https://img.shields.io/github/stars/kwooshung/Randoms?labelColor=272e3b&color=165dff)
