@@ -1,3 +1,11 @@
+## 🎉 1.0.6 `2024-02-01`
+### 🐛 Fix
+- 패키지의 창고 주소를 변경하십시오 ([#f5452ec](https://github.com/kwooshung/files/commit/f5452ec067a9dbea64170a84cabdd6230be9d6f5))
+
+## 🎉 1.0.5 `2024-02-01`
+### 🐛 Fix
+- 창고 이름을 수정하여 더 균일하게 만들 수 있습니다 ([#e183277](https://github.com/kwooshung/files/commit/e183277123766a7fc18b1152e5ae4ed0a1eca83d))
+
 ## 🎉 1.0.4 `2024-01-25`
 ### ⚡ Performance
 - 의존성 업데이트 ([#9c5a36c](https://github.com/kwooshung/files/commit/9c5a36c03c5c3f434a41ff34f439d522a6b58422))
