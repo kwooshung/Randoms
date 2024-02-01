@@ -1,3 +1,7 @@
+## 🎉 1.0.8 `2024-02-02`
+### 🐛 Fix
+- 质量测试徽章地址 ([#aa22292](https://github.com/kwooshung/files/commit/aa22292f9ad29f827d1507a4e4a74c658e7f329e))
+
 ## 🎉 1.0.7 `2024-02-02`
 ### 🐛 Fix
 - 修复一些配置 ([#a254344](https://github.com/kwooshung/files/commit/a25434499ccae08d23cc55e53790cb4d0f74421b))
