@@ -1,3 +1,7 @@
+## 🎉 1.0.9 `2024-02-03`
+### 🐛 Fix
+- 백의 파일 주소는 오류를 지정합니다 ([#4a3d00b](https://github.com/kwooshung/files/commit/4a3d00b2b35ebc4bf5614d8f03b077b7c6d32328))
+
 ## 🎉 1.0.8 `2024-02-02`
 ### 🐛 Fix
 - 품질 테스트 배지 주소 ([#aa22292](https://github.com/kwooshung/files/commit/aa22292f9ad29f827d1507a4e4a74c658e7f329e))

@@ -1,3 +1,7 @@
+## 🎉 1.0.9 `2024-02-03`
+### 🐛 Fix
+- 袋子中的文件地址指定錯誤 ([#4a3d00b](https://github.com/kwooshung/files/commit/4a3d00b2b35ebc4bf5614d8f03b077b7c6d32328))
+
 ## 🎉 1.0.8 `2024-02-02`
 ### 🐛 Fix
 - 質量測試徽章地址 ([#aa22292](https://github.com/kwooshung/files/commit/aa22292f9ad29f827d1507a4e4a74c658e7f329e))

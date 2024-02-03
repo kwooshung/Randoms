@@ -1,6 +1,6 @@
 {
   "name": "@kwooshung/randoms",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "title": "randoms",
   "description": "Consolidate superior random number projects in the community into a unified API to reduce the learning curve.",
   "private": false,
@@ -26,13 +26,13 @@
     "url": "https://github.com/kwooshung/Randoms/issues"
   },
   "type": "module",
-  "main": "dist/randoms.cjs",
-  "module": "dist/randoms.mjs",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/randoms.cjs",
-      "import": "./dist/randoms.mjs",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
       "types": "./dist/index.d.ts"
     }
   },
