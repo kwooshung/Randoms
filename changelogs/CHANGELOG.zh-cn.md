@@ -1,3 +1,7 @@
+## 🎉 1.0.10 `2024-02-18`
+### 🐛 Fix
+- 更新节点依赖项 ([#b739bab](https://github.com/kwooshung/Randoms/commit/b739bab728faf11e4c24df1f01cd3208ea6d6273))
+
 ## 🎉 1.0.9 `2024-02-03`
 ### 🐛 Fix
 - 袋子中的文件地址指定错误 ([#4a3d00b](https://github.com/kwooshung/files/commit/4a3d00b2b35ebc4bf5614d8f03b077b7c6d32328))
