@@ -1,3 +1,7 @@
+## 🎉 1.0.11 `2024-02-18`
+### 🐛 Fix
+- Обновить ссылку ошибки в журнале ([#6913039](https://github.com/kwooshung/Randoms/commit/691303914f7b1b255dc59fda09d0667fc797cdfc))
+
 ## 🎉 1.0.10 `2024-02-18`
 ### 📦 Release
 - Новая версия 1.0.10 ([#7e305eb](https://github.com/kwooshung/Randoms/commit/7e305ebde44ec71d946eb4dd3d5ddb5bcacb98e7))
